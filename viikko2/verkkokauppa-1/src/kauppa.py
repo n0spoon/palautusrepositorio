@@ -1,14 +1,14 @@
-from varasto import Varasto
-from pankki import Pankki
+from varasto import Varasto as storage
+from pankki import Pankki as bank
 from ostoskori import Ostoskori
-from viitegeneraattori import Viitegeneraattori
+from viitegeneraattori import Viitegeneraattori as vGen
 
 
 class Kauppa:
-    def __init__(self):
-        self._varasto = Varasto.get_instance()
-        self._pankki = Pankki.get_instance()
-        self._viitegeneraattori = Viitegeneraattori.get_instance()
+    def __init__(self, varasto=storage, pankki=bank, viitegeneraattori=vGen):
+        self._varasto = varasto
+        self._pankki = pankki
+        self._viitegeneraattori = viitegeneraattori
         self._kaupan_tili = "33333-44455"
 
     def aloita_asiointi(self):

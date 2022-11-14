@@ -1,16 +1,10 @@
 from tuote import Tuote
-from kirjanpito import Kirjanpito
+from kirjanpito import Kirjanpito as accounting
 
 
 class Varasto:
-    __instanssi = None
-
-    @staticmethod
-    def get_instance():
-        if not Varasto.__instanssi:
-            Varasto.__instanssi = Varasto()
-
-        return Varasto.__instanssi
+    def __init__(self, kirjanpito=accounting):
+        self._kirjanpito = kirjanpito
 
     def __init__(self):
         self._kirjanpito = Kirjanpito.get_instance()

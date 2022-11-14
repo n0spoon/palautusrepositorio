@@ -1,15 +1,9 @@
-from kirjanpito import Kirjanpito
+from kirjanpito import Kirjanpito as accounting
 
 
 class Pankki:
-    __instanssi = None
-
-    @staticmethod
-    def get_instance():
-        if not Pankki.__instanssi:
-            Pankki.__instanssi = Pankki()
-
-        return Pankki.__instanssi
+    def __init__(self, kirjanpito=accounting):
+        self._kirjanpito = kirjanpito
 
     def __init__(self):
         self._kirjanpito = Kirjanpito.get_instance()
