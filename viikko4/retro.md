@@ -16,3 +16,4 @@ Laput seuraavakasi rymitetään jonkin tiimiläisen puolesta, esimerkiksi samaa 
 Seuraavaksi käydään enintään 10 minuutin äänestys, jonka perusteella kortit järjestetään keskustelemisjärjestykseen eniten ääniä saaneestä vähimpään.
 Lopuksi vetäjähenkilö kuten scrum master, johtaa keskustelua seikkojen suhteen siinä järjestyksessä, miten tiimi on asiat äänestänyt.  Keskustelun tulisi enimmäkseen keskittyä asioihin, joita voidaan seuraavassa sprintissä suorittaa.
  
+.
