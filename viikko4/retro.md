@@ -14,6 +14,4 @@ Jokaisen tiimiläisen on tarkoitus kirjoittaa kortteihin viimeisen sprintin aika
 Taulu jaetaan kolmeen osioon 'Glad', 'Sad' ja 'Mad', joidenka alle tiimiläiset sijoittavat lappunsa, heidän havaintojensa perusteella.  Lappujen sijoittamiseen tulisi mennä 10-15 minuutia.  
 Laput seuraavakasi rymitetään jonkin tiimiläisen puolesta, esimerkiksi samaa asiaa käsittelevät laput siirretään yhteen.  Tähän tulisi mennä enintään 5 minuutia.  
 Seuraavaksi käydään enintään 10 minuutin äänestys, jonka perusteella kortit järjestetään keskustelemisjärjestykseen eniten ääniä saaneestä vähimpään.
-Lopuksi vetäjähenkilö kuten scrum master, johtaa keskustelua seikkojen suhteen siinä järjestyksessä, miten tiimi on asiat äänestänyt.  Keskustelun tulisi enimmäkseen keskittyä asioihin, joita voidaan seuraavassa sprintissä suorittaa.
- 
-.
+Lopuksi vetäjähenkilö kuten scrum master, johtaa keskustelua seikkojen suhteen siinä järjestyksessä, miten tiimi on asiat äänestänyt.  Keskustelun tulisi enimmäkseen keskittyä asioihin, joita voidaan seuraavassa sprintissä suorittaa.  
