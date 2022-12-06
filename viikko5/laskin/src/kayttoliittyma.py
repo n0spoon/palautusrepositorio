@@ -2,11 +2,13 @@ from enum import Enum
 from tkinter import ttk, constants, StringVar
 from sovelluslogiikka import Summa, Erotus, Nollaus, Kumoa
 
+
 class Komento(Enum):
     SUMMA = 1
     EROTUS = 2
     NOLLAUS = 3
     KUMOA = 4
+
 
 class Kayttoliittyma:
     def __init__(self, sovelluslogiikka, root):
@@ -72,6 +74,6 @@ class Kayttoliittyma:
             self._nollaus_painike["state"] = constants.DISABLED
         else:
             self._nollaus_painike["state"] = constants.NORMAL
-        
+
         self._syote_kentta.delete(0, constants.END)
         self._tulos_var.set(self._sovelluslogiikka.tulos)
